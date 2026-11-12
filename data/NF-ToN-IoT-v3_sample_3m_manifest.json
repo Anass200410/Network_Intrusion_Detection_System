@@ -1,0 +1,33 @@
+{
+  "source_file": "NF-ToN-IoT-v3.csv",
+  "population_rows": 27520260,
+  "sample_rows": 3000000,
+  "method": "Three-pass simple random sampling without replacement within joint (Label, Attack) strata using independent random priorities; largest-remainder proportional allocation.",
+  "random_state": 42,
+  "stratum_population_counts": {
+    "0|Benign": 16792214,
+    "1|Backdoor": 203384,
+    "1|ddos": 4141256,
+    "1|dos": 203456,
+    "1|injection": 381777,
+    "1|mitm": 6013,
+    "1|password": 1594777,
+    "1|ransomware": 3971,
+    "1|scanning": 1358977,
+    "1|xss": 2834435
+  },
+  "stratum_sample_counts": {
+    "0|Benign": 1830529,
+    "1|Backdoor": 22171,
+    "1|ddos": 451441,
+    "1|dos": 22179,
+    "1|injection": 41618,
+    "1|mitm": 655,
+    "1|password": 173848,
+    "1|ransomware": 433,
+    "1|scanning": 148143,
+    "1|xss": 308983
+  },
+  "source_row_index_column": "__source_row__",
+  "sample_file": "NF-ToN-IoT-v3_sample_3m.csv.gz"
+}
